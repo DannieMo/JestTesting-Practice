@@ -1,12 +1,12 @@
 /*
-	The describe block
-	1. Is a built in function.. It is called with parenthesis.
-	2. It takes in 2 aruguments.
-		i. The function name.
-		ii. the function that holds the individual test.
+The describe block
+1. Is a built in function.. It is called with parenthesis.
+2. It takes in 2 arguments.
+    i. The function name.
+    ii. the function that holds the individual test.
 */
 
-const reverseString = require('./reversestring');
+const reverseString = require('./reverseString.js');
 
 describe('Test for reverse string', () => {
   it('should reverse the string', () => {

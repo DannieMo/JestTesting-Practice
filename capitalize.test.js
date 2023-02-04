@@ -1,4 +1,4 @@
-const capitalize = require('./capitalize');
+const capitalize = require('./capitalize.js');
 
 describe('check if string is capitalized', () => {
   it('should capitalize the string', () => {
