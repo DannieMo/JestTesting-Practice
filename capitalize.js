@@ -5,8 +5,4 @@ const capitalize = (str) => {
   return 'Please supply a string';
 };
 
-// console.log(capitalize(['right', 'wrong', 'meat']));
-// console.log(capitalize('WRONG'));
-// console.log(capitalize(1));
-
 module.exports = capitalize;

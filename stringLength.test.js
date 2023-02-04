@@ -1,6 +1,4 @@
-const stringLength = require('./stringlength');
-
-// import moduleName from 'module';
+const stringLength = require('./stringLength.js');
 
 describe('Test the length of string', () => {
   it('is not empty', () => {
